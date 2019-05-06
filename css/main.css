@@ -1,0 +1,515 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500|Nunito+Sans');
+
+body {
+	/*background: url(../img/grid.png) no-repeat center top / cover;*/
+	width: 100%;
+	font-family: Montserrat Medium, sans-serif;
+}
+
+.clearfix {
+	content: '';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+header {
+	background-image: url(../img/background.png) no-repeat center top / cover;
+	background-color:rgba(0, 0, 0, 0.1);
+	max-height: 670px;
+	height: 100%;
+}
+
+.container {
+	max-width: 1172px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	margin-top: 40px;
+}
+
+.menu {
+	float: right;
+	display: block;
+	margin-top: 45px;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-left: 30px;
+}
+
+.menu li a {
+	color: #333333;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.intro {
+	margin: 180px 28px 200px 672px;
+}
+
+h1{
+	font-family: Monserrat Medium, sans-serif;
+	font-size: 38px;
+	font-weight: bold;
+	color: #363636;
+}
+
+.intro-text {
+	font-family: Nunito Sans, sans-serif;
+	font-size: 18px;
+	text-align: left;
+	color: #787878;
+	line-height: 1.5;
+	margin-top: 37px;
+	margin-bottom: 41px;
+}
+
+.button {
+  background-image:url("../img/button.png");
+  opacity: 0.6;
+  padding: 14px 25px 14px 25px;
+  margin-top: 50px;
+  /*оформление текста*/
+  color:#FFF;
+  font-family: Montserrat Medium, sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px; 
+  font-weight: bold;
+  text-align: center;
+}
+
+					/* ABOUT US */
+.about {
+	text-align: center;
+	max-height: 420px;
+	height: 100%;
+	width: 570px;
+	margin: 98px 302px 100px 300px;
+	display: block;
+}
+
+h2 {
+	font-family: Monserrat Medium, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #363636;
+}
+
+.text {
+	font-family: Nunito Sans, sans-serif;
+	font-size: 16px;
+	color: #787878;
+	line-height: 1.5;
+	margin-top: 37px;
+	margin-bottom: 41px;
+}
+
+			/* PROFESSIONAL SKILLS */
+
+.left-bg {
+	background: url(../img/bg-left.png) no-repeat left top / cover;
+	float: left;
+	width: 50%;
+	height: 574px;
+	background:rgba(0, 0, 0, 0.1);
+}
+
+.right-bg {
+	background: url(../img/bg-right.png) no-repeat right top / cover;
+	float: right;
+	height: 574px;
+	width: 50%;
+	background:rgba(0, 0, 0, 0.2);
+}
+
+.skills {
+	margin: 166px 0 164px 100px;
+}
+
+.qualities {
+	margin: 37px 0 0 0;
+}
+
+.qualities li {
+	text-transform: uppercase;
+	list-style-type: none;
+	font-family: Montserrat Medium, sans-serif;
+	font-size: 12px;
+	margin-left: -40px;
+	margin-top: 37px;
+}
+
+span {
+	margin-left: 30px;
+}
+
+progress {
+	height: 4px;
+	width: 504px;
+	margin-left: -40px;
+	background-color: #10c9c3 !important;
+}
+
+progress::-webkit-progress-bar {
+	background-color: #d8d8d8 !important;
+}
+progress::-webkit-progress-value {
+	background-color: #10c9c3 !important;
+} 
+progress::-moz-progress-bar {
+	background-color: #d8d8d8 !important;
+}
+
+					/* NUMBERS */
+
+.blue-bg {
+	background: url(../img/bg-blue.png) no-repeat center top / cover;
+	opacity: 0.8;
+	max-height: 242px;
+	height: 100%;
+}
+
+.numbers {
+	padding: 100px 0 105px 0;
+	display: flex;
+}
+
+.numbers > div:nth-child(4) {
+    margin-left: auto;
+}
+
+.numbers > div:nth-child(3) {
+    margin-left: auto;
+}
+
+.numbers > div:nth-child(2) {
+    margin-left: auto;
+}
+
+.item {
+	float: left;
+	text-align: center;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-family: Montserrat Medium, sans-serif;
+}
+
+.img-item {
+	float: left;
+	margin-right: 24px;
+}
+
+.badges {
+	float: right;
+}
+
+.num {
+	text-align: left;
+	font-size: 18px;
+}
+
+.badge {
+	font-size: 12px;
+	margin-right: 55px;
+}
+
+						/* WORK */
+.boxes {
+	display: grid;
+    grid-template-columns: repeat(4);
+}
+
+.line {
+	position: relative;
+	z-index: 3;
+}
+
+.line img {
+	width: 25%;
+	opacity: 0.6;
+	margin-left: -4px;
+	margin-top: -1px;
+	margin-bottom: -2px;
+}
+
+.dark {
+	position: absolute;
+	opacity: 0.6;
+	z-index: 2;
+	left: 333px;
+}
+
+.eye {
+	position: absolute;
+	z-index: 150;
+	left: 332px;
+	top: 40px;
+	padding-left: 145px;
+	padding-top: 80px;
+}
+
+.work img {
+	height: 103px;
+	width: 100%;
+	background:rgba(0, 0, 0, 0.1);
+}
+
+.more-work {
+	margin-top: -50px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Montserrat Medium, sans-serif;
+}
+
+					/*   VIDEO   */
+.video {
+	margin-bottom: 102px;
+}
+					/*   SERVICES   */
+
+.bg-services {
+	background-color: rgba(216, 216, 216, 0.6);
+	height: 538px;
+	width: 100%;
+}
+
+.serv {
+	height: 538px;
+	padding: 95px 0 104px 0;
+}
+
+.services {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-auto-rows: 140px;
+	grid-gap: 4em;
+}
+
+.box {
+	text-align: center;
+}
+
+.box img {
+	margin-bottom: 30px;
+}
+
+.service-name {
+	font-family: Montserrat Medium, sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.service-text {
+	font-family: Nunito Sans, sans-serif;
+	font-size: 16px;
+	color: #787878;
+	line-height: 1.5;
+	margin-top: 25px;
+}
+
+                /*  TESTIMONIALS  */
+.testimonials {
+	background: url(../img/bg-testimonials.png) no-repeat center top / cover;
+	opacity: 0.8;
+	height: 498px;
+}
+
+.testimonials-text {
+  font-size: 24px;
+  font-family: Montserrat Medium, sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  text-align: center;
+  position: absolute;
+  margin-top: 180px;
+  left: 278px;
+  width: 807px;
+  height: 99px;
+}
+
+.hopkins {
+  font-size: 12px;
+  font-family: Montserrat Medium, sans-serif;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  line-height: 3;
+  text-align: center;
+  position: absolute;
+  margin-top: 310px;
+  left: 617px;
+  width: 132px;
+  height: 9px;
+}
+
+.pagination-img {
+	padding-top: 426px;
+	text-align: center;
+}
+
+                 /*  CLIENTS  */
+.lg-container {
+	height: 200px;
+	margin-top: 66px;
+	margin-bottom: -45px;
+}
+
+.logos {
+	display: flex;
+}
+
+.logos > img:nth-child(2) {
+    margin-left: auto;
+}
+
+.logos > img:nth-child(3) {
+    margin-left: auto;
+}
+
+.logos > img:nth-child(4) {
+    margin-left: auto;
+}
+
+.logos > img:nth-child(5) {
+    margin-left: auto;
+}
+
+                     /* FORM */
+.project {
+	background: url(../img/bg-project.png) no-repeat center top / cover;
+	background: rgba(0, 0, 0, 0.1);
+	height: 900px;
+}
+
+.form-wrapper {
+	padding-top: 30px;
+}
+
+form {
+  text-align: center;
+  margin-left: 250px;
+  margin-top: -100px;
+  width: 670px;
+  height: 330px;
+}
+
+input, textarea {
+	border: none;
+	margin: 30px;
+	opacity: 0.4;
+}
+
+.inp {
+  display: flex;
+  width: 710px;
+}
+
+.name {
+  width: 400px;
+  height: 48px;
+  margin-right: 30px;
+  /*text*/
+  font-size: 15px;
+  font-family: Nunito Sans, sans-serif;
+  line-height: 1.6;
+  padding-left: 20px;
+}
+
+.email {
+  width: 400px;
+  height: 48px;
+  /*text*/
+  font-size: 15px;
+  font-family: Nunito Sans, sans-serif;
+  line-height: 1.6;
+  padding-left: 20px;
+}
+
+.title {
+  width: 630px;
+  height: 48px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /*text*/
+  font-size: 15px;
+  font-family: Nunito Sans, sans-serif;
+  line-height: 1.6;
+  padding-left: 20px;
+}
+
+.comment {
+  width: 614px;
+  height: 170px;
+  /*text*/
+  font-size: 15px;
+  font-family: Nunito Sans, sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.but {
+	margin-top: 30px;
+}
+                  /* FOOTER */
+footer {
+	background: url(../img/bg-footer.png) no-repeat center top / cover;
+	background: rgba(0, 0, 0, 0.9);
+	max-height: 285px;
+	height: 100%;
+}
+
+.footer-wrapper {
+	display: flex;
+	margin-top: 84px;
+	margin-bottom: 84px;
+}
+
+.foot {
+	padding-top: 20px;
+}
+
+.inc {
+  font-size: 18px;
+  font-family: Montserrat Medium, sans-serif;
+  color: rgb(255, 255, 255);
+  line-height: 4;
+  margin-top: -28px;
+}
+
+.footer-text {
+  font-size: 15px;
+  font-family: Nunito Sans, sans-serif;
+  color: rgb( 188, 188, 188 );
+  line-height: 1.6;
+}
+
+.copyright {
+	margin-right: 250px;
+}
+
+.contacts {
+	margin-right: 145px;
+}
+
+.anchors {
+	margin-right: 55px;
+}
+
+.network {
+    margin-left: auto;
+}
