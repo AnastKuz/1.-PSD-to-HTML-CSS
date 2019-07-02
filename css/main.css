@@ -245,22 +245,6 @@ progress::-moz-progress-bar {
 	margin-bottom: -2px;
 }
 
-.dark {
-	position: absolute;
-	opacity: 0.6;
-	z-index: 2;
-	left: 333px;
-}
-
-.eye {
-	position: absolute;
-	z-index: 150;
-	left: 332px;
-	top: 40px;
-	padding-left: 145px;
-	padding-top: 80px;
-}
-
 .work img {
 	height: 103px;
 	width: 100%;
@@ -338,7 +322,7 @@ progress::-moz-progress-bar {
   text-align: center;
   position: absolute;
   margin-top: 180px;
-  left: 278px;
+  left: 340px;
   width: 807px;
   height: 99px;
 }
@@ -352,7 +336,7 @@ progress::-moz-progress-bar {
   text-align: center;
   position: absolute;
   margin-top: 310px;
-  left: 617px;
+  left: 667px;
   width: 132px;
   height: 9px;
 }
